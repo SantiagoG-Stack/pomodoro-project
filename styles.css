@@ -1,0 +1,16 @@
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+.pulse-animation {
+    animation: pulse 2s infinite;
+}
+.progress-ring__circle {
+    transition: stroke-dashoffset 0.35s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+.tab-active {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+}
